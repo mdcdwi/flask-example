@@ -2,7 +2,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route("/api/cek", methods=['GET'])
+@app.route("/", methods=['GET'])
 def cek():
     return "Web App with Python Flask!"
 
